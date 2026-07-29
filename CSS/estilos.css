@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Brodway";
+    src: url("fuentes/Broadway-Musical.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Gotic";
+    src: url("fuentes/gotic ween.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "HarryPotter";
+    src: url("fuentes/HARRYP__.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: "Minecraft";
+    src: url("fuentes/Minecraft.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Pokemon";
+    src: url("fuentes/Pokemon Solid.ttf") format("truetype");
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 100px;
+    color: rgb(138, 79, 79); 
+    text-shadow: 5px 5px 5px black;
+}
+
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 30px;
+    
+    margin: 10px auto;
+    padding: 5px;
+    border: skyblue 2px groove;
+    border-radius: 50px 10px;
+    box-shadow: 0px 0px 5px black;
+    
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background: mediumblue;
+    color: aqua;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border: fuchsia groove 5px;
+    border-radius: 0px;
+    box-shadow: 0px 0px 5px lime;
+    transform: scale(1.1);
+}
+
+
+.btn-1 { font-family: "Brodway", sans-serif; }
+.btn-2 { font-family: "Gotic", sans-serif; }
+.btn-3 { font-family: "HarryPotter", sans-serif; }
+.btn-4 { font-family: "Minecraft", sans-serif; }
+.btn-5 { font-family: "Pokemon", sans-serif; }
