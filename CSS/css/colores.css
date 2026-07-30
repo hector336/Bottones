@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #00ef;
+}
+
+#c1 {
+    background: blue;
+}
+
+#c2 {
+    background: red;
+}
+
+#c3 {
+    background: green;
+}
+
+#c4 {
+    background: #0000ff;
+}
+
+#c5 {
+    background: #ff0000;
+}
+
+#c6 {
+    background: #00ff00;
+}
+
+#c7 {
+    background: rgb(0, 0, 255);
+}
+
+#c8 {
+    background: rgb(255, 0, 0);
+}
+
+#c9 {
+    background: rgb(0, 255, 0);
+}
+
+#c10 {
+    background: rgba(0, 0, 255, 0.5);
+}
+
+#c11 {
+    background: rgba(255, 0, 0, 0.5);
+}
+
+#c12 {
+    background: rgba(0, 255, 0, 0.5);
+}
+
+#c13 {
+    background: hsl(240, 100%, 50%);
+}
+
+#c14 {
+    background: hsl(0, 100%, 50%);
+}
+
+#c15 {
+    background: hsl(120, 100%, 50%);
+}
+
+#c16 {
+    background: linear-gradient(to bottom, red, blue);
+}
+
+#c17 {
+    background: linear-gradient(to right, yellow, green);
+}
+
+#c18 {
+    background: linear-gradient(to bottom, purple, orange);
+}
+
+#c19 {
+    background: radial-gradient(red, blue);
+}
+
+#c20 {
+    background: radial-gradient(yellow, green);
+}
+
+#c21 {
+    background: radial-gradient(white, purple);
+}
+
+#c22 {
+    background: hwb(0 0% 0%);
+}
+
+#c23 {
+    background: hwb(120 0% 0%);
+}
+
+#c24 {
+    background: hwb(240 0% 0%);
+}
