@@ -1,0 +1,127 @@
+/* Estilos generales con fondo suave */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f0f2f5;
+    padding: 20px;
+}
+
+/* Títulos */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* El enlace "REGRESAR" se mantiene con su estilo por defecto */
+a {
+    /* Sin estilos personalizados */
+}
+
+/* Estilo base para los ejemplos de animaciones */
+.ejemplo {
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 700px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid #dcdde1;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Estilo base para las cajitas animadas */
+.ejemplo .caja {
+    width: 100px;
+    height: 60px;
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 14px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Ejemplo 1: Cambio de color con @keyframes */
+.animacion1 .caja {
+    animation-name: cambiarColor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes cambiarColor {
+    0% { background-color: #3498db; }
+    50% { background-color: #e74c3c; }
+    100% { background-color: #2ecc71; }
+}
+
+/* Ejemplo 2: Movimiento (desplazamiento horizontal) */
+.animacion2 .caja {
+    animation-name: moverCaja;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes moverCaja {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(350px); background-color: #9b59b6; }
+}
+
+/* Ejemplo 3: Rotación 360 grados con escala */
+.animacion3 .caja {
+    animation-name: rotarCaja;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotarCaja {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(180deg) scale(1.2); background-color: #f39c12; }
+    100% { transform: rotate(360deg); }
+}
+
+/* Ejemplo 4: Cambio de tamaño (Pulse Effect) */
+.animacion4 .caja {
+    animation-name: crecerCaja;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes crecerCaja {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.4); background-color: #1abc9c; border-radius: 50%; }
+}
+
+/* Ejemplo 5: Animación infinita combinada (rebote y color) */
+.animacion5 .caja {
+    animation-name: animacionLoca;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animacionLoca {
+    0% { transform: translateY(0) rotate(0deg); background-color: #e84393; }
+    50% { transform: translateY(-20px) rotate(15deg); background-color: #00cec9; }
+    100% { transform: translateY(0) rotate(-15deg); background-color: #fdcb6e; }
+}
+
+/* Video */
+video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}

@@ -1,0 +1,93 @@
+/* Estilos generales con fondo suave */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f0f2f5;
+    padding: 20px;
+}
+
+/* Títulos */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* El enlace "REGRESAR" se mantiene con su estilo por defecto */
+a {
+    /* Sin estilos personalizados */
+}
+
+/* Estilo base para los ejemplos de posicionamiento */
+.ejemplo {
+    position: relative; /* Necesario para que el absolute interno se ubique respecto a su caja */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid #dcdde1;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Ejemplo 1: Static (Posición normal por defecto) */
+.posicion1 {
+    position: static;
+    background-color: #ffeaa7;
+}
+
+/* Ejemplo 2: Relative (Se desplaza respecto a su posición original) */
+.posicion2 {
+    position: relative;
+    top: 10px;
+    left: 15px;
+    background-color: #fab1a0;
+}
+
+/* Ejemplo 3: Absolute (Se posiciona respecto al contenedor con position relative) */
+.posicion3 {
+    background-color: #81ecec;
+}
+
+.cuadro-absolute {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #00b894;
+    color: white;
+    padding: 8px 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+/* Ejemplo 4: Fixed (Se queda fijo en la esquina de la pantalla al hacer scroll) */
+.posicion4 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    max-width: 250px;
+    background-color: #a29bfe;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+/* Ejemplo 5: Sticky (Se desplaza normal hasta llegar al borde superior de la pantalla y se pega) */
+.posicion5 {
+    position: sticky;
+    top: 10px;
+    background-color: #dfe6e9;
+    z-index: 10;
+}
+
+/* Video */
+video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}

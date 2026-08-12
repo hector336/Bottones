@@ -1,0 +1,96 @@
+/* Estilos generales con fondo suave */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f0f2f5;
+    padding: 20px;
+}
+
+/* Títulos */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* El enlace "REGRESAR" se mantiene con su estilo por defecto */
+a {
+    /* Sin estilos personalizados */
+}
+
+/* Estilo base para los ejemplos de Flexbox */
+.ejemplo {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid #dcdde1;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Estilo para los cajitas internas numeradas (1, 2, 3) */
+.contenedor div {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+/* Ejemplo 1: Display Flex (convierte los elementos en flexibles en fila) */
+.flex1 .contenedor {
+    display: flex;
+    background-color: #ffeaa7;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Ejemplo 2: Justify Content (distribuye horizontalmente) */
+.flex2 .contenedor {
+    display: flex;
+    justify-content: space-around; /* Separa los elementos equitativamente */
+    background-color: #fab1a0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Ejemplo 3: Align Items (alineación vertical) */
+.flex3 .contenedor {
+    display: flex;
+    align-items: center;
+    height: 100px; /* Altura de prueba para ver la alineación vertical */
+    background-color: #55efc4;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Ejemplo 4: Flex Direction (cambia la dirección a columna) */
+.flex4 .contenedor {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos uno debajo de otro */
+    background-color: #81ecec;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Ejemplo 5: Gap (espacio entre los elementos flexibles) */
+.flex5 .contenedor {
+    display: flex;
+    gap: 15px; /* Crea espacio limpio entre las cajas sin usar margenes complejos */
+    background-color: #dfe6e9;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Video */
+video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}

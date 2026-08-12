@@ -60,6 +60,111 @@ a {
     
     transition: all 0.3s ease;
 }
+a:nth-of-type(3) {
+    font-family: 'cherly', sans-serif;
+    background: #641E16; 
+    color: #F5EEF8; 
+    border: #D4AC0D solid 5px; 
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px #4A235A; 
+}
+
+
+a:nth-of-type(4) {
+    font-family: 'pokemon', sans-serif;
+    background: #154360; 
+    color: #EBF5FB; 
+    border: #839192 solid 5px; 
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px #1B4F72; 
+}
+
+/* BOTON 5 */
+a:nth-of-type(5) {
+    font-family: 'dynamix', sans-serif;
+    background: #512E5F;
+    color: #F8F9F9;
+    border: #D7BDE2 solid 5px;
+    border-radius: 10px 50px 10px 50px;
+    box-shadow: 5px 5px 0px #2C1A33;
+}
+
+
+/* BOTON 6 */
+a:nth-of-type(6) {
+    font-family: 'pokemon', sans-serif;
+    background: #B03A2E;
+    color: #FDEBD0;
+    border: #F5B041 double 6px;
+    border-radius: 50px 10px 50px 10px;
+    box-shadow: 0px 0px 15px #78281F;
+}
+
+
+/* BOTON 7 */
+a:nth-of-type(7) {
+    font-family: 'matcha', sans-serif;
+    background: #1E8449;
+    color: #EAFAF1;
+    border: #82E0AA groove 5px;
+    border-radius: 0px 50px 0px 50px;
+    box-shadow: 5px 5px 10px #145A32;
+}
+
+
+/* BOTON 8 */
+a:nth-of-type(8) {
+    font-family: 'cherly', sans-serif;
+    background: #6C3483;
+    color: #F5EEF8;
+    border: #D2B4DE dashed 5px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px #512E5F;
+}
+
+
+/* BOTON 9 */
+a:nth-of-type(9) {
+    font-family: 'minecraft', sans-serif;
+    background: #154360;
+    color: #D6EAF8;
+    border: #5DADE2 solid 5px;
+    border-radius: 5px 40px 40px 5px;
+    box-shadow: 7px 7px 0px #1B2631;
+}
+
+
+/* BOTON 10 */
+a:nth-of-type(10) {
+    font-family: 'dynamix', sans-serif;
+    background: #AF601A;
+    color: #FEF9E7;
+    border: #F8C471 groove 6px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 12px #784212;
+}
+
+
+/* BOTON 11 */
+a:nth-of-type(11) {
+    font-family: 'pokemon', sans-serif;
+    background: #117864;
+    color: #E8F8F5;
+    border: #76D7C4 dotted 6px;
+    border-radius: 15px 50px 15px 50px;
+    box-shadow: 5px 5px 15px #0B5345;
+}
+
+
+/* BOTON 12 */
+a:nth-of-type(12) {
+    font-family: 'cherly', sans-serif;
+    background: #922B21;
+    color: #FDEDEC;
+    border: #F1948A solid 5px;
+    border-radius: 0px;
+    box-shadow: 8px 8px 0px #641E16;
+}
 
 a:hover {
     background: mediumblue;

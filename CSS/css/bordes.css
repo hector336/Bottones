@@ -1,0 +1,65 @@
+/* Estilos generales (sin fondo general ni restricciones de ancho) */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Títulos */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* El enlace "REGRESAR" se mantiene con su estilo por defecto */
+a {
+    /* Sin estilos personalizados */
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+}
+
+/* Estilo base para los ejemplos de bordes */
+.ejemplo {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+    box-sizing: border-box;
+}
+
+/* Ejemplo 1: Borde sólido */
+.borde1 {
+    border: 4px solid #3498db;
+}
+
+/* Ejemplo 2: Borde punteado (dotted) */
+.borde2 {
+    border: 9px dotted #e67e22;
+}
+
+/* Ejemplo 3: Borde discontinuo (dashed) */
+.borde3 {
+    border: 4px dashed #2ecc71;
+}
+
+/* Ejemplo 4: Borde doble (double) */
+.borde4 {
+    border: 9px double #9b59b6;
+}
+
+/* Ejemplo 5: Border-radius (bordes redondeados) */
+.borde5 {
+    border: 4px solid #e74c3c;
+    border-radius: 20px; /* Redondea las esquinas */
+}
+
+/* Video */
+video {
+    max-width: 100%;
+    height: auto;
+}

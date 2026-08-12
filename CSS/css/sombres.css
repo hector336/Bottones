@@ -1,0 +1,65 @@
+/* Estilos generales con un fondo muy suave para que las sombras resalten */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f0f2f5; /* Fondo suave para ver el efecto de la sombra */
+    padding: 20px;
+}
+
+/* Títulos */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* El enlace "REGRESAR" se mantiene con su estilo por defecto */
+a {
+    /* Sin estilos personalizados */
+}
+
+/* Estilo base para los ejemplos de sombras */
+.ejemplo {
+    padding: 25px;
+    margin: 20px auto; /* Centra las cajas y las separa */
+    max-width: 700px;  /* Evita que se estiren por toda la pantalla */
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 8px; /* Esquinas redondeadas para que se vean mejor */
+}
+
+/* Ejemplo 1: Sombra básica (más marcada para que se note) */
+.sombra1 {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Ejemplo 2: Sombra grande con mayor desenfoque */
+.sombra2 {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Ejemplo 3: Sombra de texto (más visible) */
+.sombra3 h3 {
+    color: #2980b9;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Ejemplo 4: Sombra interna (inset) */
+.sombra4 {
+    box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Ejemplo 5: Varias sombras combinadas */
+.sombra5 {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Video */
+video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
