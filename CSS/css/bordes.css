@@ -57,7 +57,21 @@ hr {
     border: 4px solid #e74c3c;
     border-radius: 20px; /* Redondea las esquinas */
 }
+/* Estilos generales para los contenedores de ejemplo */
+.ejemplo {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
 
+/* Ejemplo 6: Borde degradado */
+.borde6 {
+    /* Grosor del borde */
+    border: 5px solid transparent; 
+    /* Definimos el degradado lineal y el número 1 para la porción de la imagen */
+    border-image: linear-gradient(to right, #ff7e5f, #feb47b) 1;
+}
+  
 /* Video */
 video {
     max-width: 100%;
